@@ -1,0 +1,210 @@
+[
+  {
+    "MaMG": "MG900",
+    "TenMuaGiai": "Giải vô địch sinh viên HUFLIT 2027 - Lần 1",
+    "ThoiGian": "2027-01-10T08:00",
+    "MoTa": "Case 1: Thêm mới hợp lệ đầu tiên",
+    "action": "add_season",
+    "expected": true
+  },
+  {
+    "MaMG": "MG901",
+    "TenMuaGiai": "",
+    "ThoiGian": "2027-01-11T08:00",
+    "MoTa": "Case 2: Lỗi để trống tên mùa giải",
+    "action": "add_season",
+    "expected": false
+  },
+  {
+    "MaMG": "MG902",
+    "TenMuaGiai": "Giải Lỗi Logic Thời Gian",
+    "ThoiGian": "2027-01-01T00:00",
+    "MoTa": "Case 3: Lỗi ngày bắt đầu > ngày kết thúc (giả lập logic)",
+    "action": "add_season",
+    "expected": false
+  },
+  {
+    "MaMG": "MG903",
+    "TenMuaGiai": "Giải vô địch sinh viên HUFLIT 2027 - Lần 1",
+    "ThoiGian": "2027-01-15T08:00",
+    "MoTa": "Case 4: Lỗi trùng tên hoàn toàn với MG900",
+    "action": "add_season",
+    "expected": false
+  },
+  {
+    "MaMG": "MG904",
+    "TenMuaGiai": "Giải Mô Tả Vượt Ngưỡng",
+    "ThoiGian": "2027-01-20T08:00",
+    "MoTa": "Case 5: Lỗi mô tả dài hơn 500 ký tự... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nội dung này chắc chắn sẽ bị hệ thống báo lỗi hoặc cắt bớt vì quá dài.",
+    "action": "add_season",
+    "expected": false
+  },
+  {
+    "MaMG": "MG905",
+    "TenMuaGiai": "Giải Bóng Đá HUFLIT Mùa Xuân",
+    "ThoiGian": "2026-03-29T21:00",
+    "MoTa": "Case 6: Hợp lệ với ngày bắt đầu là ngày hiện tại",
+    "action": "add_season",
+    "expected": true
+  },
+  {
+    "MaMG": "MG906",
+    "TenMuaGiai": "Giải Biên Độ Mô Tả 500",
+    "ThoiGian": "2027-02-01T08:00",
+    "MoTa": "Case 7: Mô tả đúng 500 ký tự. Nội dung mô tả dài đúng 500 ký tự để kiểm tra giới hạn biên của trường dữ liệu văn bản trong hệ thống quản lý giải đấu bóng đá học sinh sinh viên. Việc kiểm tra này đảm bảo rằng cơ sở dữ liệu có thể lưu trữ tối đa dung lượng cho phép mà không làm vỡ giao diện hoặc gây lỗi hệ thống khi người dùng nhập liệu quá nhiều thông tin chi tiết về mùa giải mới sắp được tổ chức vào năm 2027 tới đây tại khu vực thành phố Hồ Chí Minh với quy mô toàn quốc cực kỳ hoành tráng và chuyên nghiệp nhất.",
+    "action": "add_season",
+    "expected": true
+  },
+  {
+    "MaMG": "MG907",
+    "TenMuaGiai": "Giải Lượt Về 2027",
+    "ThoiGian": "2027-03-01T08:00",
+    "MoTa": "Case 8: Ngày kết thúc cách ngày bắt đầu 1 ngày (Hợp lệ)",
+    "action": "add_season",
+    "expected": true
+  },
+  {
+    "MaMG": "MG908",
+    "TenMuaGiai": "Giải Thiếu Ngày Bắt Đầu",
+    "ThoiGian": "",
+    "MoTa": "Case 9: Lỗi bỏ trống ngày bắt đầu",
+    "action": "add_season",
+    "expected": false
+  },
+  {
+    "MaMG": "MG909",
+    "TenMuaGiai": "Giải Thiếu Ngày Kết Thúc",
+    "ThoiGian": "2027-04-01T08:00",
+    "MoTa": "Case 10: Lỗi bỏ trống ngày kết thúc",
+    "action": "add_season",
+    "expected": false
+  },
+  {
+    "MaMG": "MG030",
+    "TenMuaGiai": "",
+    "ThoiGian": "",
+    "MoTa": "",
+    "action": "delete_season",
+    "expected": false
+  },
+  {
+    "MaMG": "MG007",
+    "TenMuaGiai": "",
+    "ThoiGian": "",
+    "MoTa": "",
+    "action": "delete_season",
+    "expected": false
+  },
+  {
+    "MaMG": "MG500",
+    "TenMuaGiai": "",
+    "ThoiGian": "",
+    "MoTa": "",
+    "action": "delete_season",
+    "expected": true
+  },
+  {
+    "MaMG": "MG507",
+    "TenMuaGiai": "",
+    "ThoiGian": "",
+    "MoTa": "",
+    "action": "check_delete_ui",
+    "expected": true
+  },
+  {
+    "MaMG": "MG506",
+    "TenMuaGiai": "",
+    "ThoiGian": "",
+    "MoTa": "",
+    "action": "delete_cancel",
+    "expected": true
+  },
+  {
+    "MaMG": "MG504",
+    "TenMuaGiai": "Giải 2027 Đã Cập Nhật",
+    "ThoiGian": "2027-02-01T08:00",
+    "MoTa": "Case 16: Chỉnh sửa tên thành công",
+    "action": "edit_season",
+    "expected": true
+  },
+  {
+    "MaMG": "MG906",
+    "TenMuaGiai": "Giải Bóng Đá HUFLIT Mùa Xuân",
+    "ThoiGian": "2027-02-01T08:00",
+    "MoTa": "Case 17: Lỗi sửa tên trùng với mùa khác (MG905)",
+    "action": "edit_season",
+    "expected": false
+  },
+  {
+    "MaMG": "MG907",
+    "TenMuaGiai": "Sửa Ngày Không Hợp Lệ",
+    "ThoiGian": "1995-12-31T00:00",
+    "MoTa": "Case 18: Sửa ngày kết thúc nhỏ hơn ngày bắt đầu",
+    "action": "edit_season",
+    "expected": false
+  },
+  {
+    "MaMG": "MG504",
+    "TenMuaGiai": "Giải Lượt Về 2027",
+    "ThoiGian": "2027-03-01T08:00",
+    "MoTa": "Case 19: Cập nhật mô tả thành công",
+    "action": "edit_season",
+    "expected": true
+  },
+  {
+    "MaMG": "MG504",
+    "TenMuaGiai": "Giải Lượt Về 2027",
+    "ThoiGian": "2027-03-01T08:00",
+    "MoTa": "Case 20: Chỉnh sửa mô tả đúng 500 ký tự. Nội dung mô tả dài đúng 500 ký tự để kiểm tra giới hạn biên của trường dữ liệu văn bản trong hệ thống quản lý giải đấu bóng đá học sinh sinh viên. Việc kiểm tra này đảm bảo rằng cơ sở dữ liệu có thể lưu trữ tối đa dung lượng cho phép mà không làm vỡ giao diện hoặc gây lỗi hệ thống khi người dùng nhập liệu quá nhiều thông tin chi tiết về mùa giải mới sắp được tổ chức vào năm 2027 tới đây tại khu vực thành phố Hồ Chí Minh với quy mô toàn quốc cực kỳ hoành tráng và chuyên nghiệp nhất.",
+    "action": "edit_season",
+    "expected": true
+  },
+  {
+    "MaMG": "MG504",
+    "TenMuaGiai": "Sửa Ngày Bằng Nhau",
+    "ThoiGian": "2027-03-01T08:00",
+    "MoTa": "Case 21: Lỗi sửa ngày bắt đầu bằng ngày kết thúc",
+    "action": "edit_season",
+    "expected": false
+  },
+  {
+    "MaMG": "",
+    "TenMuaGiai": "",
+    "ThoiGian": "",
+    "MoTa": "",
+    "action": "sort_season",
+    "expected": true
+  },
+  {
+    "MaMG": "MG907",
+    "TenMuaGiai": "",
+    "ThoiGian": "",
+    "MoTa": "",
+    "action": "view_list",
+    "expected": true
+  },
+  {
+    "MaMG": "",
+    "TenMuaGiai": "",
+    "ThoiGian": "",
+    "MoTa": "",
+    "action": "sort_start_date",
+    "expected": true
+  },
+  {
+    "MaMG": "MG504",
+    "TenMuaGiai": "",
+    "ThoiGian": "",
+    "MoTa": "",
+    "action": "view_details",
+    "expected": true
+  },
+  {
+    "MaMG": "MG910",
+    "TenMuaGiai": "Giải_Đặc_Biệt_@_#_!",
+    "ThoiGian": "2027-05-01T08:00",
+    "MoTa": "Case 26: Lỗi nhập tên chứa ký tự đặc biệt",
+    "action": "add_season",
+    "expected": false
+  }
+]

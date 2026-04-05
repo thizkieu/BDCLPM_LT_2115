@@ -1,0 +1,177 @@
+[
+  {
+    "MaVD": "VD900",
+    "TenVong": "Vòng sơ loại HUFLIT 2027",
+    "ThoiGian": "2027-01-10T08:00",
+    "MaMG": "MG020",
+    "action": "add_round",
+    "expected": true
+  },
+  {
+    "MaVD": "VD901",
+    "TenVong": "",
+    "ThoiGian": "2027-01-11T08:00",
+    "MaMG": "MG020",
+    "action": "add_round",
+    "expected": false
+  },
+  {
+    "MaVD": "VD902",
+    "TenVong": "Vòng Lỗi Logic Ngày",
+    "ThoiGian": "1990-01-01T00:00",
+    "MaMG": "MG020",
+    "action": "add_round",
+    "expected": false
+  },
+  {
+    "MaVD": "VD903",
+    "TenVong": "Vòng sơ loại HUFLIT 2027",
+    "ThoiGian": "2027-01-15T08:00",
+    "MaMG": "MG020",
+    "action": "add_round",
+    "expected": false
+  },
+  {
+    "MaVD": "VD904",
+    "TenVong": "Vòng Biên Ngày",
+    "ThoiGian": "2027-01-10T08:00",
+    "MaMG": "MG020",
+    "action": "add_round",
+    "expected": false
+  },
+  {
+    "MaVD": "VD905",
+    "TenVong": "Vòng đấu có mô tả cực kỳ dài vượt quá giới hạn 255 ký tự của hệ thống để kiểm tra khả năng xử lý validation phía server-side nhằm đảm bảo dữ liệu không bị tràn hoặc gây lỗi giao diện khi hiển thị trên danh sách quản lý vòng đấu bóng đá sinh viên năm 2027...",
+    "ThoiGian": "2027-01-20T08:00",
+    "MaMG": "MG020",
+    "action": "add_round",
+    "expected": false
+  },
+  {
+    "MaVD": "VD906",
+    "TenVong": "Vòng Bảng Miền Nam",
+    "ThoiGian": "2027-02-01T08:00",
+    "MaMG": "MG010",
+    "action": "add_round",
+    "expected": true
+  },
+  {
+    "MaVD": "VD001",
+    "TenVong": "Vòng Đã Có Trận",
+    "action": "delete_round",
+    "expected": false
+  },
+  {
+    "MaVD": "VD408",
+    "TenVong": "Vòng Cần Xóa",
+    "action": "delete_round",
+    "expected": true
+  },
+  {
+    "MaVD": "VD403",
+    "TenVong": "Check UI Xác Nhận",
+    "action": "view_details",
+    "expected": true
+  },
+  {
+    "MaVD": "VD403",
+    "TenVong": "Hủy Xóa",
+    "action": "delete_cancel",
+    "expected": true
+  },
+  {
+    "MaVD": "VD906",
+    "TenVong": "Quyền Người Dùng",
+    "action": "default",
+    "expected": false
+  },
+  {
+    "MaVD": "",
+    "TenVong": "",
+    "MaMG": "MG020",
+    "action": "default",
+    "expected": true
+  },
+  {
+    "MaVD": "VD506",
+    "TenVong": "Xem Chi Tiết",
+    "action": "view_details",
+    "expected": true
+  },
+  {
+    "action": "sort_round",
+    "expected": true
+  },
+  {
+    "action": "pagination",
+    "expected": true
+  },
+  {
+    "MaVD": "VD907",
+    "TenVong": "Vòng_@_#_!",
+    "ThoiGian": "2027-03-01T10:00",
+    "MaMG": "MG020",
+    "action": "add_round",
+    "expected": false
+  },
+  {
+    "MaVD": "VD908",
+    "TenVong": "Vòng Không Mùa",
+    "ThoiGian": "2027-03-05T10:00",
+    "MaMG": "",
+    "action": "add_round",
+    "expected": false
+  },
+  {
+    "MaVD": "VD404",
+    "TenVong": "Tên vòng đấu dài đúng năm mươi ký tự để test biên.",
+    "MaMG": "MG010",
+    "action": "edit_round",
+    "expected": true
+  },
+  {
+    "MaVD": "VD404",
+    "TenVong": "Vòng Bảng Miền Nam",
+    "MoTa": "Mô tả dài đúng 255 ký tự để kiểm tra giới hạn biên của trường dữ liệu văn bản. Nội dung này phải được lưu trữ chính xác mà không bị cắt bỏ bất kỳ ký tự nào, đảm bảo tính toàn vẹn của dữ liệu trong quá trình cập nhật thông tin vòng đấu từ phía quản trị viên.",
+    "action": "edit_round",
+    "expected": true
+  },
+  {
+    "MaVD": "VD404",
+    "TenVong": "Sửa Trống Ngày Bắt Đầu",
+    "ThoiGian": "",
+    "action": "edit_round",
+    "expected": false
+  },
+  {
+    "MaVD": "VD404",
+    "TenVong": "Sửa Trống Ngày Kết Thúc",
+    "ThoiGian": "2027-02-01T08:00",
+    "action": "edit_round",
+    "expected": false
+  },
+  {
+    "MaVD": "VD404",
+    "TenVong": "Xóa Vòng Có BXH",
+    "action": "delete_round",
+    "expected": false
+  },
+  {
+    "MaVD": "VD405",
+    "TenVong": "Cập Nhật Thành Công",
+    "ThoiGian": "2027-05-20T15:00",
+    "MaMG": "MG010",
+    "action": "edit_round",
+    "expected": true
+  },
+  {
+    "MaVD": "VD405",
+    "TenVong": "Trùng Tên Khi Sửa",
+    "action": "edit_round",
+    "expected": false
+  },
+  {
+    "action": "sort_round",
+    "expected": true
+  }
+]

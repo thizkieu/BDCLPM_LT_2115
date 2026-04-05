@@ -1,0 +1,242 @@
+[
+  {
+    "teamId": "DB600",
+    "teamName": "Đại học Công nghệ Sài Gòn",
+    "school": "STU",
+    "coach": "Nguyễn Văn Nam",
+    "players": 15,
+    "logo": "default.png",
+    "action": "add_team",
+    "expected": true
+  },
+  {
+    "teamId": "DB601",
+    "teamName": "",
+    "school": "HUFLIT",
+    "coach": "Lê Huỳnh Đức",
+    "players": 11,
+    "logo": "default.png",
+    "action": "add_team",
+    "expected": false
+  },
+  {
+    "teamId": "DB602",
+    "teamName": "Đội bóng đá nam sinh viên có cái tên cực kỳ dài vượt quá giới hạn quy định của hệ thống quản lý giải đấu năm 2026...",
+    "school": "Bách Khoa",
+    "coach": "Trần Văn A",
+    "players": 15,
+    "logo": "default.png",
+    "action": "add_team",
+    "expected": false
+  },
+  {
+    "teamId": "DB603",
+    "teamName": "Đại học Sư phạm Kỹ thuật",
+    "school": "HCMUTE",
+    "coach": "Trần Minh Chiến",
+    "players": 18,
+    "logo": "default.png",
+    "action": "add_team",
+    "expected": true
+  },
+  {
+    "teamId": "DB604",
+    "teamName": "Đội Test Logo Lỗi",
+    "school": "Tôn Đức Thắng",
+    "coach": "Nguyễn Hữu Thắng",
+    "players": 11,
+    "logo": "malware.exe",
+    "action": "add_team",
+    "expected": false
+  },
+  {
+    "teamId": "DB605",
+    "teamName": "Doi Bong Sinh Vien NTTU Class 2026 12345",
+    "school": "NTTU",
+    "coach": "Hoàng Anh Tuấn",
+    "players": 14,
+    "logo": "default.png",
+    "action": "add_team",
+    "expected": true
+  },
+  {
+    "teamId": "DB606",
+    "teamName": "Đội Test Dung Lượng",
+    "school": "Kinh tế",
+    "coach": "Kiatisuk",
+    "players": 11,
+    "logo": "huge_image_4k.png",
+    "action": "add_team",
+    "expected": false
+  },
+  {
+    "teamId": "DB607",
+    "teamName": "Đội Webp New Team",
+    "school": "FPT Uni",
+    "coach": "Mai Đức Chung",
+    "players": 16,
+    "logo": "default.png",
+    "action": "add_team",
+    "expected": true
+  },
+  {
+    "teamId": "DB608",
+    "teamName": "Đại học Công nghệ Sài Gòn",
+    "school": "STU",
+    "coach": "Nguyễn Văn Nam",
+    "players": 15,
+    "logo": "default.png",
+    "action": "add_team",
+    "expected": false
+  },
+  {
+    "teamId": "DB609",
+    "teamName": "Đại học Công nghệ Sài Gòn ",
+    "school": "STU",
+    "coach": "Nguyễn Văn Nam",
+    "players": 15,
+    "logo": "default.png",
+    "action": "add_team",
+    "expected": true
+  },
+  {
+    "teamId": "DB610",
+    "teamName": "ĐẠI HỌC CÔNG NGHỆ SÀI GÒN",
+    "school": "STU",
+    "coach": "Nguyễn Văn Nam",
+    "players": 15,
+    "logo": "default.png",
+    "action": "add_team",
+    "expected": false
+  },
+  {
+    "teamId": "DB600",
+    "teamName": "Đại học Công nghệ Sài Gòn (Sửa)",
+    "school": "STU - Update",
+    "coach": "Phạm Thành Danh",
+    "players": 17,
+    "logo": "default.png",
+    "action": "edit_team",
+    "expected": true
+  },
+  {
+    "teamId": "DB600",
+    "teamName": "Đại học Sư phạm Kỹ thuật",
+    "school": "STU",
+    "coach": "Phạm Thành Danh",
+    "players": 20,
+    "logo": "default.png",
+    "action": "edit_team",
+    "expected": false
+  },
+  {
+    "teamId": "DB605",
+    "teamName": "Đội NTTU Cập Nhật",
+    "school": "Nguyễn Tất Thành",
+    "coach": "Park Hang Seo",
+    "players": 15,
+    "logo": "default.png",
+    "action": "edit_team",
+    "expected": true
+  },
+  {
+    "teamId": "DB605",
+    "teamName": "",
+    "school": "NTTU",
+    "coach": "Coach Test",
+    "players": 15,
+    "logo": "default.png",
+    "action": "edit_team",
+    "expected": false
+  },
+  {
+    "teamId": "DB605",
+    "teamName": "Tên đội bóng quá dài vượt quá giới hạn ký tự cho phép của hệ thống Database lớp kiểm thử phần mềm 2026",
+    "school": "HUFLIT",
+    "coach": "Trần Văn B",
+    "players": 11,
+    "logo": "default.png",
+    "action": "edit_team",
+    "expected": false
+  },
+  {
+    "teamId": "DB600",
+    "teamName": "Đại học Công nghệ Sài Gòn (Sửa)",
+    "school": "",
+    "coach": "",
+    "players": 0,
+    "logo": "",
+    "action": "delete_cancel",
+    "expected": true
+  },
+  {
+    "teamId": "DB607",
+    "teamName": "Đội Webp New Team",
+    "school": "",
+    "coach": "",
+    "players": 0,
+    "logo": "",
+    "action": "delete_team",
+    "expected": true
+  },
+  {
+    "teamId": "DB15",
+    "teamName": "Đội Đã Có Lịch Thi Đấu",
+    "school": "",
+    "coach": "",
+    "players": 0,
+    "logo": "",
+    "action": "delete_linked",
+    "expected": false
+  },
+  {
+    "teamId": "DB02",
+    "teamName": "Đội Đã Đăng Ký Vòng Đấu",
+    "school": "",
+    "coach": "",
+    "players": 0,
+    "logo": "",
+    "action": "delete_joined",
+    "expected": false
+  },
+  {
+    "teamId": "",
+    "teamName": "",
+    "school": "",
+    "coach": "",
+    "players": 0,
+    "logo": "",
+    "action": "view_admin",
+    "expected": true
+  },
+  {
+    "teamId": "DB611",
+    "teamName": "Đội bóng Tự do 2026",
+    "school": "Quận 10",
+    "coach": "Vô danh",
+    "players": 11,
+    "logo": "",
+    "action": "add_team",
+    "expected": true
+  },
+  {
+    "teamId": "",
+    "teamName": "",
+    "school": "",
+    "coach": "",
+    "players": 0,
+    "logo": "",
+    "action": "sort_list",
+    "expected": true
+  },
+  {
+    "teamId": "",
+    "teamName": "",
+    "school": "",
+    "coach": "",
+    "players": 0,
+    "logo": "",
+    "action": "pagination",
+    "expected": true
+  }
+]

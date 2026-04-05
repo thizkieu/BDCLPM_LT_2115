@@ -1,0 +1,129 @@
+[
+  {
+    "MaLich": "LTD600",
+    "MaTD": "TD88",
+    "NgayThiDau": "2026-10-20",
+    "GioThiDau": "15:00",
+    "DiaDiem": "Sân vận động Thống Nhất",
+    "TrangThai": "Sắp đấu",
+    "action": "add_schedule",
+    "expected": true
+  },
+  {
+    "MaLich": "",
+    "MaTD": "TD88",
+    "NgayThiDau": "2026-10-20",
+    "GioThiDau": "15:00",
+    "DiaDiem": "Sân A",
+    "TrangThai": "Sắp đấu",
+    "action": "add_schedule",
+    "expected": false
+  },
+  {
+    "MaLich": "LTD601",
+    "MaTD": "",
+    "NgayThiDau": "2026-10-20",
+    "GioThiDau": "15:00",
+    "DiaDiem": "Sân A",
+    "TrangThai": "Sắp đấu",
+    "action": "add_schedule",
+    "expected": false
+  },
+  {
+    "MaLich": "LTD602",
+    "MaTD": "TD88",
+    "NgayThiDau": "",
+    "GioThiDau": "15:00",
+    "DiaDiem": "Sân A",
+    "TrangThai": "Sắp đấu",
+    "action": "add_schedule",
+    "expected": false
+  },
+  {
+    "MaLich": "LTD600",
+    "MaTD": "TD86",
+    "NgayThiDau": "2026-10-20",
+    "GioThiDau": "15:00",
+    "DiaDiem": "Sân A",
+    "TrangThai": "Sắp đấu",
+    "action": "add_schedule",
+    "expected": false
+  },
+  {
+    "MaLich": "LTD603",
+    "MaTD": "TD88",
+    "NgayThiDau": "2010-01-01",
+    "GioThiDau": "15:00",
+    "DiaDiem": "Sân A",
+    "TrangThai": "Sắp đấu",
+    "action": "add_schedule",
+    "expected": false
+  },
+  {
+    "MaLich": "LTD604",
+    "MaTD": "TD85",
+    "NgayThiDau": "2026-10-25",
+    "GioThiDau": "15:00",
+    "DiaDiem": "Khu liên hợp thể thao quốc gia nằm tại trung tâm quận 10 thành phố Hồ Chí Minh Việt Nam đúng 100 ký tự.",
+    "TrangThai": "Sắp đấu",
+    "action": "add_schedule",
+    "expected": true
+  },
+  {
+    "MaLich": "LTD605",
+    "MaTD": "TD001",
+    "NgayThiDau": "2026-10-25",
+    "GioThiDau": "15:00",
+    "DiaDiem": "Sân bóng @HUFLIT #2026!",
+    "TrangThai": "Sắp đấu",
+    "action": "add_schedule",
+    "expected": true
+  },
+  {
+    "MaLich": "LTD050",
+    "action": "view_details",
+    "expected": true
+  },
+  {
+    "MaLich": "LTD055",
+    "DiaDiem": "Sân vận động Quân Khu 7",
+    "action": "edit_schedule",
+    "expected": true
+  },
+  {
+    "MaLich": "LTD040",
+    "TrangThai": "Kết thúc",
+    "action": "edit_schedule",
+    "expected": true
+  },
+  {
+    "MaLich": "LTD023",
+    "action": "delete_cancel",
+    "expected": true
+  },
+  {
+    "MaLich": "LTD025",
+    "action": "delete_schedule",
+    "expected": true
+  },
+  {
+    "action": "sort_id",
+    "expected": true
+  },
+  {
+    "action": "sort_date",
+    "expected": true
+  },
+  {
+    "action": "pagination",
+    "expected": true
+  },
+  {
+    "action": "verify_columns",
+    "expected": true
+  },
+  {
+    "action": "auth_check",
+    "expected": false
+  }
+]

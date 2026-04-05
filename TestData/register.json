@@ -1,0 +1,182 @@
+[
+  {
+    "HoTen": "Nguyễn Hoàng Nam",
+    "Email": "hoangnam2027@gmail.com",
+    "TenDangNhap": "nam2027",
+    "MatKhau": "Nam123456",
+    "AnhDaiDienFile": "avar4.jpg",
+    "action": "register",
+    "expected": true
+  },
+  {
+    "HoTen": "",
+    "Email": "fail02@gmail.com",
+    "TenDangNhap": "user_fail02",
+    "MatKhau": "Abc12345",
+    "AnhDaiDienFile": "",
+    "action": "register",
+    "expected": false
+  },
+  {
+    "HoTen": "K",
+    "Email": "fail03@gmail.com",
+    "TenDangNhap": "user_fail03",
+    "MatKhau": "Abc12345",
+    "AnhDaiDienFile": "",
+    "action": "register",
+    "expected": false
+  },
+  {
+    "HoTen": "Nguyễn Trần Huyền Anh Thư Công Tằng Tôn Nữ Quế Trân Quế Chi",
+    "Email": "fail04@gmail.com",
+    "TenDangNhap": "user_fail04",
+    "MatKhau": "Abc12345",
+    "AnhDaiDienFile": "",
+    "action": "register",
+    "expected": false
+  },
+  {
+    "HoTen": "Ly",
+    "Email": "ly2027@gmail.com",
+    "TenDangNhap": "ly2027",
+    "MatKhau": "Ly123456",
+    "AnhDaiDienFile": "avar4.jpg",
+    "action": "register",
+    "expected": true
+  },
+  {
+    "HoTen": "Chuỗi ký tự kiểm tra biên độ dài đúng 50 ký tự....",
+    "Email": "edge2027@gmail.com",
+    "TenDangNhap": "edge2027",
+    "MatKhau": "Abc12345",
+    "AnhDaiDienFile": "avar4.jpg",
+    "action": "register",
+    "expected": true
+  },
+  {
+    "HoTen": "Trần Văn B",
+    "Email": "tranvanb.com",
+    "TenDangNhap": "vanb2027",
+    "MatKhau": "Abc12345",
+    "AnhDaiDienFile": "",
+    "action": "register",
+    "expected": false
+  },
+  {
+    "HoTen": "Admin Duplicate",
+    "Email": "hoangnam2027@gmail.com",
+    "TenDangNhap": "admintest_new",
+    "MatKhau": "Abc12345",
+    "AnhDaiDienFile": "",
+    "action": "register",
+    "expected": false
+  },
+  {
+    "HoTen": "Nguyễn Văn A",
+    "Email": "test space @gmail.com",
+    "TenDangNhap": "space2027",
+    "MatKhau": "Abc12345",
+    "AnhDaiDienFile": "",
+    "action": "register",
+    "expected": false
+  },
+  {
+    "HoTen": "User 10",
+    "Email": "user10_new@gmail.com",
+    "TenDangNhap": "user10_new",
+    "MatKhau": "123",
+    "AnhDaiDienFile": "",
+    "action": "register",
+    "expected": false
+  },
+  {
+    "HoTen": "User 11",
+    "Email": "user11_new@gmail.com",
+    "TenDangNhap": "user11_new",
+    "MatKhau": "PassQuaDaiTren20KyTuNheKiêu",
+    "AnhDaiDienFile": "",
+    "action": "register",
+    "expected": false
+  },
+  {
+    "HoTen": "User 12",
+    "Email": "user12_new@gmail.com",
+    "TenDangNhap": "user12_new",
+    "MatKhau": "chiToanChuCai",
+    "AnhDaiDienFile": "",
+    "action": "register",
+    "expected": false
+  },
+  {
+    "HoTen": "Lê Anh",
+    "Email": "leanh2027@gmail.com",
+    "TenDangNhap": "leanh2027",
+    "MatKhau": "la1234",
+    "AnhDaiDienFile": "avar4.jpg",
+    "action": "register",
+    "expected": true
+  },
+  {
+    "HoTen": "User Max 20",
+    "Email": "max20_2027@gmail.com",
+    "TenDangNhap": "max20_2027",
+    "MatKhau": "p1a2s3s4w5o6r7d8m9a0",
+    "AnhDaiDienFile": "avar4.jpg",
+    "action": "register",
+    "expected": true
+  },
+  {
+    "HoTen": "User 15",
+    "Email": "user15_new@gmail.com",
+    "TenDangNhap": "user15_new",
+    "MatKhau": "12345678",
+    "AnhDaiDienFile": "",
+    "action": "register",
+    "expected": false
+  },
+  {
+    "HoTen": "",
+    "Email": "",
+    "TenDangNhap": "",
+    "MatKhau": "",
+    "AnhDaiDienFile": "",
+    "action": "register_all_empty",
+    "expected": false
+  },
+  {
+    "HoTen": "Kiều Redirect",
+    "Email": "redirect2027@gmail.com",
+    "TenDangNhap": "kieu_redirect",
+    "MatKhau": "Kieu123456",
+    "AnhDaiDienFile": "avar4.jpg",
+    "action": "check_redirect",
+    "expected": true
+  },
+  {
+    "HoTen": "Phạm Gia Bảo",
+    "Email": "giabao2027@gmail.com",
+    "TenDangNhap": "giabao2027",
+    "MatKhau": "Bao123456",
+    "AnhDaiDienFile": "avar4.jpg",
+    "action": "check_database",
+    "expected": true
+  },
+  {
+    "HoTen": "Phạm Gia Bảo",
+    "Email": "giabao2027@gmail.com",
+    "TenDangNhap": "giabao2027",
+    "MatKhau": "Bao123456",
+    "AnhDaiDienFile": "avar4.jpg",
+    "action": "check_password_hash",
+    "expected": true
+  },
+  {
+    "HoTen": "",
+    "Email": "",
+    "TenDangNhap": "",
+    "MatKhau": "",
+    "AnhDaiDienFile": "",
+    "action": "check_client_validation",
+    "expected": false
+  }
+]

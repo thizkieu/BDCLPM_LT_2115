@@ -1,0 +1,182 @@
+[
+  {
+    "username": "admin",
+    "password": "admin123",
+    "action": "login",
+    "expected": true
+  },
+  {
+    "username": "admin",
+    "password": "",
+    "action": "saved_login",
+    "expected": true
+  },
+  {
+    "username": "admin",
+    "password": "admin123",
+    "action": "remember_login",
+    "expected": true
+  },
+  {
+    "username": "abc",
+    "password": "admin123",
+    "action": "login",
+    "expected": true
+  },
+  {
+    "username": "useradmin1237890admin1237890admin123",
+    "password": "admin123",
+    "action": "login",
+    "expected": true
+  },
+  {
+    "username": "user_01",
+    "password": "admin123",
+    "action": "login",
+    "expected": true
+  },
+  {
+    "username": "user20",
+    "password": "Abcadmin1237890admin1237",
+    "action": "login",
+    "expected": true
+  },
+  {
+    "username": "admin",
+    "password": "admin123",
+    "action": "dont_remember",
+    "expected": true
+  },
+  {
+    "username": "An",
+    "password": "admin123",
+    "action": "login",
+    "expected": false
+  },
+  {
+    "username": "admin",
+    "password": "654321",
+    "action": "login",
+    "expected": false
+  },
+  {
+    "username": "admin",
+    "password": "",
+    "action": "login",
+    "expected": false
+  },
+  {
+    "username": "admin",
+    "password": "1",
+    "action": "login",
+    "expected": false
+  },
+  {
+    "username": "useradmin1237890admin1237890admin1237",
+    "password": "admin123",
+    "action": "login",
+    "expected": false
+  },
+  {
+    "username": "user 01",
+    "password": "admin123",
+    "action": "login",
+    "expected": false
+  },
+  {
+    "username": "admin",
+    "password": "Abcadmin1237890admin12378",
+    "action": "login",
+    "expected": false
+  },
+  {
+    "username": "",
+    "password": "admin123",
+    "action": "login",
+    "expected": false
+  },
+  {
+    "username": "",
+    "password": "",
+    "action": "login",
+    "expected": false
+  },
+  {
+    "username": "",
+    "password": "",
+    "action": "forgot_form",
+    "expected": true
+  },
+  {
+    "username": "thuykieukk0101@gmail.com",
+    "password": "",
+    "action": "forgot_request",
+    "expected": true
+  },
+  {
+    "username": "thuykieu@gmail.com",
+    "password": "",
+    "action": "forgot_request",
+    "expected": false
+  },
+  {
+    "username": "user_locked",
+    "password": "admin123",
+    "action": "login",
+    "expected": false
+  },
+  {
+    "username": "user_unverified",
+    "password": "admin123",
+    "action": "login",
+    "expected": false
+  },
+  {
+    "username": "user_deleted",
+    "password": "admin123",
+    "action": "login",
+    "expected": false
+  },
+  {
+    "username": "",
+    "password": "",
+    "action": "ui_chrome",
+    "expected": true
+  },
+  {
+    "username": "",
+    "password": "",
+    "action": "ui_edge",
+    "expected": true
+  },
+  {
+    "username": "",
+    "password": "",
+    "action": "ui_firefox",
+    "expected": true
+  },
+  {
+    "username": "",
+    "password": "",
+    "action": "mobile_view",
+    "expected": true
+  },
+  {
+    "username": "",
+    "password": "",
+    "action": "performance",
+    "expected": true
+  },
+  {
+    "username": "",
+    "password": "",
+    "action": "forgot_empty",
+    "expected": false
+  },
+  {
+    "username": "abc123",
+    "password": "",
+    "action": "forgot_invalid",
+    "expected": false
+  }
+]

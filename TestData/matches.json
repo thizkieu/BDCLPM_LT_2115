@@ -1,0 +1,168 @@
+[
+  {
+    "MaTD": "TD800",
+    "TenTran": "Trận STU vs HCMUTE",
+    "Doi1": "DB600",
+    "Doi2": "DB603",
+    "ThoiGian": "2026-08-10T15:00",
+    "DiaDiem": "Sân vận động Thống Nhất",
+    "MaVD": "VD001",
+    "action": "add_match",
+    "expected": true
+  },
+  {
+    "MaTD": "TD801",
+    "TenTran": "Trận đấu kiểm tra giới hạn tên cực kỳ dài để test validation của hệ thống quản lý bóng đá sinh viên 2026...",
+    "Doi1": "DB600",
+    "Doi2": "DB603",
+    "ThoiGian": "2026-08-10T15:00",
+    "DiaDiem": "Sân vận động Thống Nhất",
+    "MaVD": "VD001",
+    "action": "add_match",
+    "expected": false
+  },
+  {
+    "MaTD": "TD802",
+    "TenTran": "Lỗi trùng đội (STU vs STU)",
+    "Doi1": "DB600",
+    "Doi2": "DB600",
+    "ThoiGian": "2026-08-11T08:00",
+    "DiaDiem": "Sân Thống Nhất",
+    "MaVD": "VD002",
+    "action": "add_match",
+    "expected": false
+  },
+  {
+    "MaTD": "TD803",
+    "TenTran": "Trận đấu quá khứ (Năm 2000)",
+    "Doi1": "DB40",
+    "Doi2": "DB43",
+    "ThoiGian": "2000-01-01T08:00",
+    "DiaDiem": "Sân Bách Khoa",
+    "MaVD": "VD002",
+    "action": "add_match",
+    "expected": false
+  },
+  {
+    "MaTD": "TD804",
+    "TenTran": "Trận Phan Đình Phùng vs Marie Curie",
+    "Doi1": "DB07",
+    "Doi2": "DB23",
+    "ThoiGian": "2026-08-12T15:00",
+    "DiaDiem": "Sân A",
+    "MaVD": "VD003",
+    "action": "add_match",
+    "expected": true
+  },
+  {
+    "MaTD": "TD800",
+    "TenTran": "Lỗi trùng mã MaTD đã có",
+    "Doi1": "DB600",
+    "Doi2": "DB603",
+    "ThoiGian": "2026-08-10T15:00",
+    "DiaDiem": "Sân vận động Thống Nhất",
+    "MaVD": "VD001",
+    "action": "add_match",
+    "expected": false
+  },
+  {
+    "MaTD": "TD805",
+    "TenTran": "Ngày giờ sai định dạng",
+    "Doi1": "DB40",
+    "Doi2": "DB43",
+    "ThoiGian": "NOT_A_DATE",
+    "DiaDiem": "Sân D",
+    "MaVD": "VD002",
+    "action": "add_match",
+    "expected": false
+  },
+  {
+    "MaTD": "TD806",
+    "TenTran": "Trùng sân và giờ (với TD800)",
+    "Doi1": "DB45",
+    "Doi2": "DB47",
+    "ThoiGian": "2026-08-10T15:00",
+    "DiaDiem": "Sân vận động Thống Nhất",
+    "MaVD": "VD002",
+    "action": "add_match",
+    "expected": false
+  },
+  {
+    "MaTD": "TD807",
+    "TenTran": "Cùng sân khác giờ",
+    "Doi1": "DB40",
+    "Doi2": "DB43",
+    "ThoiGian": "2026-08-10T19:00",
+    "DiaDiem": "Sân vận động Thống Nhất",
+    "MaVD": "VD001",
+    "action": "add_match",
+    "expected": true
+  },
+  {
+    "MaTD": "TD808",
+    "TenTran": "Để trống thời gian",
+    "Doi1": "DB07",
+    "Doi2": "DB23",
+    "ThoiGian": "",
+    "DiaDiem": "Sân D",
+    "MaVD": "VD001",
+    "action": "add_match",
+    "expected": false
+  },
+  {
+    "MaTD": "TD080",
+    "TenTran": "Cập nhật tỉ số (Trận có sẵn)",
+    "Doi1": "DB06",
+    "Doi2": "DB22",
+    "ThoiGian": "2026-03-29T20:00",
+    "DiaDiem": "Sân D",
+    "MaVD": "VD020",
+    "action": "update_result",
+    "expected": true
+  },
+  {
+    "MaTD": "TD080",
+    "TenTran": "Tỉ số âm (-2)",
+    "Doi1": "DB06",
+    "Doi2": "DB22",
+    "ThoiGian": "2026-03-29T20:00",
+    "DiaDiem": "Sân D",
+    "MaVD": "VD020",
+    "action": "update_result_negative",
+    "expected": false
+  },
+  {
+    "MaTD": "TD800",
+    "TenTran": "Sửa trống địa điểm",
+    "Doi1": "DB600",
+    "Doi2": "DB603",
+    "ThoiGian": "2026-08-10T15:00",
+    "DiaDiem": "",
+    "MaVD": "VD001",
+    "action": "edit_match",
+    "expected": false
+  },
+  {
+    "MaTD": "TD809",
+    "TenTran": "Trận Việt Đức vs Trần Nhân Tông",
+    "Doi1": "DB06",
+    "Doi2": "DB22",
+    "ThoiGian": "2026-08-21T14:00",
+    "DiaDiem": "Sân Quân Khu 7",
+    "MaVD": "VD002",
+    "action": "add_match",
+    "expected": true
+  },
+  {
+    "MaTD": "TD809",
+    "TenTran": "Xem chi tiết trận mới",
+    "action": "view_details",
+    "expected": true
+  },
+  {
+    "MaTD": "TD800",
+    "TenTran": "Hủy trận đấu",
+    "action": "cancel_match",
+    "expected": true
+  }
+]
